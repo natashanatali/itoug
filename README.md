@@ -12,26 +12,26 @@
 -Выводим "новый массив"
 
 
-string[] array = { "Hello", "2", "world", ":-)" };
-string[] newArray = new string[0];
-
-
-for (int i = 0; i < array.Length; i++)
-{
-    if (array[i].Length <= 3)
-    {
-        Array.Resize(ref newArray, newArray.Length + 1);
-        newArray[newArray.Length - 1] = array[i];
-    }
-}
-
-Console.Write(string.Join(" ", newArray));
-void PrintArray(string[] array)
-{
-    for (int i = 0; i < array.Length; i++)
-    {
-        Console.Write(array[i] + " ");
-    }
-    Console.WriteLine();
-}
-PrintArray(newArray);
+//string[] array = { "Hello", "2", "world", ":-)" };
+//string[] newArray = new string[0];
+//
+//
+//for (int i = 0; i < array.Length; i++)
+//{
+//    if (array[i].Length <= 3)
+//    {
+//        Array.Resize(ref newArray, newArray.Length + 1);
+//        newArray[newArray.Length - 1] = array[i];
+//    }
+//}
+//
+//Console.Write(string.Join(" ", newArray));
+//void PrintArray(string[] array)
+//{
+//    for (int i = 0; i < array.Length; i++)
+//    {
+//        Console.Write(array[i] + " ");
+//    }
+//    Console.WriteLine();
+//}
+//PrintArray(newArray);
